@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+int main()
+{
     int degreeC ;
     double degreeF  ;
     degreeC=128;
     degreeF=degreeC*9/5+32;
-    printf("Äá¤ó%d«× ",degreeC);
+    printf("æ”æ° %d åº¦ ",degreeC);
     printf("=");
-    printf(" µØ¤ó%f«× ",degreeF);
+    printf("è¯æ° %f åº¦ ",degreeF);
     return 0;
 }
